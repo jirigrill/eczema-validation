@@ -294,3 +294,50 @@ Beyond that: `nationaleczema.org/eczema-wise/` 404s and so do four other candida
 - It **does** still demonstrate that the largest US eczema charity, with 75K email subscribers and 66K Facebook followers behind it, could not sustain the product — which is a real negative, just a weaker and differently-shaped one than "5K installs after six years."
 
 The four negative findings across the sweep still corroborate each other. This one is now the weakest of them, and should not be cited as the strongest.
+
+---
+
+## Addendum, 2026-09-06: is the four-feature combination unclaimed?
+
+Added because the owner named a specific feature set and asked whether it is differentiated. The tables above answer it; this section states the answer plainly so the next reader does not have to re-derive it.
+
+**The proposed combination:** (1) simple food logs, (2) photos attached to per-region skin logs, (3) guided allergen re-introduction programs, (4) optional AI-generated insights.
+
+**It is not unclaimed. It is the default shape of the 2026 wave.**
+
+One shipped app is the whole list, near-verbatim. [**Baby W/O Allergies**](https://apps.apple.com/us/app/baby-without-allergies/id6776690582) (§2a) describes itself as *"a guided elimination diet, safe step-by-step allergen testing, and a daily symptom diary built specifically for infants with suspected food allergies, CMPA or atopic eczema"* — with flare severity **and location**, symptom **photos**, and an explicit audience of *"breastfeeding mothers following a maternal elimination diet."* That is items 1–3 in one product, updated 2026-08-31. It has **100+ Play installs and 0 iOS ratings**.
+
+Feature-by-feature coverage across the sweep:
+
+| Proposed feature | Already shipped by |
+|---|---|
+| Simple food logs | effectively every app in Group 2 |
+| Photos + per-region skin detail | `EczemaTrack` (15-region body map, front/back, per-area severity), `Baby W/O Allergies`, `Lergy`, `AllergyLog` |
+| **Guided allergen re-introduction** | `Baby W/O Allergies` (guided elimination + step-by-step testing), `AllergyLog` (top-9 introduction), Solid Starts (allergen guidance, no ladder) |
+| AI-generated insights | `Alara`, `Atopic App`, `EczemaLess`, `AllerLog`, `Aureya` (where "food-skin insights" *is* the paywall) |
+
+`EczemaTrack: Baby Rash Tracker` (§1b) independently covers three of the four, including 24–72h lagged correlation, and also has **0 ratings**.
+
+**Consequence for a go/no-go.** Two apps already shipped this feature set to a combined audience of roughly nobody. That relocates the question: the constraint is not which features to build, it is demand and distribution — which is the same conclusion §1b reaches from the other direction. Competing on execution against builders who assembled the identical feature list means competing on the one axis the store does not price.
+
+### The re-introduction ladder is the strongest of the four, and it is still not a moat
+
+Worth separating out, because it is the only item with an argument behind it:
+
+- It is a **protocol, not a log.** It tells a parent what to do next Tuesday. Every other feature here produces a chart and leaves the interpretation to her.
+- It is the only one with **clinical structure to cite** — milk-ladder protocols, top-9 introduction sequencing — which fits this project's cite-or-don't-claim rule, where a correlation engine does not.
+- It has a **natural end**, which is the only structural answer found anywhere in this sweep to complaint #1 (subscription resented against a short use window). An open-ended tracker asks to be paid forever for a three-month problem; a programme that completes does not.
+
+It is nonetheless not a differentiator, because `Baby W/O Allergies` ships it and got 100 installs. The feature is available; the audience is not reached.
+
+### The AI insights limb should be dropped, and not only for commercial reasons
+
+Weakest defensibility of the four: five competitors already claim it, and it is the specific thing the review corpus distrusts out loud — see complaint #2, including the verbatim *"it claims 'fruit' is my number one culprit… but I've never logged 'fruit'."*
+
+The stronger objection is not competitive. A sparse single-child diary cannot support a causal claim, and a confident wrong one leads a breastfeeding mother to eliminate a food group. In a personal-use app that risk is **higher**, not lower, because there is no reviewer between the model's output and her decision.
+
+### Net
+
+The four-feature product is a **no** as stated — not because the features are wrong, but because they are already the category baseline and the baseline has no audience. The only version of this with a defensible commercial shape is **ladder-first**: a finishable, cited programme with an end date, positioned against the paying food-introduction audience (§2b) rather than the eczema-tracking one. That is a content-and-protocol bet, not an iOS-engineering bet, and it deserves to be evaluated as such rather than inherited as a feature list.
+
+None of this bears on `eczema-ios` as scoped — single child, single user, no accounts, no billing, no distribution. The findings above constrain selling the app, not building it.
