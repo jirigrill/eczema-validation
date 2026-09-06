@@ -263,6 +263,34 @@ So the maternal-diet→infant-skin relationship is genuinely unoccupied *at scal
 Stated so the next ticket can go looking, rather than leaving the conclusion unfalsifiable:
 
 - **Revenue evidence for any eczema app.** Nothing in this sweep establishes that *any* eczema-specific app earns meaningful revenue. Rating counts are a proxy for installs, not for money. A third-party revenue estimate on `EczemaLess` or `Nia` would sharpen this considerably.
-- **Why EczemaWise actually closed.** The NEA's stated reason is usage-based. If it closed for grant-funding reasons rather than lack of demand, the graveyard reading softens.
+- **Why EczemaWise actually closed.** ~~The NEA's stated reason is usage-based.~~ **Partly closed 2026-09-06, and it softens the graveyard reading — see the correction section below.** NEA has published no stated reason anywhere reachable; what is now established is that the app was free with no IAP, and that NEA's own IRS filing puts it at **25,000 users**, not the 5,000 Android installs quoted above.
 - **Whether the 2026 clone wave is spending anything on distribution.** If those twelve apps launched with zero marketing, their zero ratings say nothing about the category and everything about their go-to-market. If any of them ran paid acquisition and still got nothing, that is close to decisive.
 - **The Solid Starts adjacency.** Its low-star reviews are a working list of a paying audience's unmet needs, in an app that charges ~$100/year and has a million installs. A reaction/trigger tracker positioned *against Solid Starts' broken tracker*, sold to parents already conditioned to pay at that price point, is a materially different and better-evidenced thesis than "an eczema app". That is worth its own ticket before any go/no-go.
+
+---
+
+## Correction, 2026-09-06: the EczemaWise numbers above understate it by 5x
+
+Added after the ticket closed, because it changes a load-bearing figure rather than adding colour. Everything here was fetched 2026-09-06 and is first-party.
+
+**It was never a paid app.** The iTunes lookup API returns `price: 0.0`, `formattedPrice: "Free"`, and the listing carries no in-app purchases. So EczemaWise is **zero evidence about willingness to pay for eczema tracking** — a point the "graveyard" framing above quietly borrows against.
+
+**It had 25,000 users, not 5,000.** NEA's [Form 990 for FY2024](https://cms.nationaleczema.org/wp-content/uploads/2026/04/2024-National-Eczema-Association-Fed-Form-990.pdf), in the program-accomplishments narrative, states verbatim:
+
+> "The EczemaWise mobile app surpassed 25,000 users and received multiple national awards for patient engagement."
+
+The **5K+ figure quoted above is Google Play installs only** — one platform, and the smaller one. The 217 iOS ratings are a ratings count, not an install count. A charity's own IRS filing is a stronger source than either.
+
+**No reason has been published anywhere reachable.** The sunset notice is identical on both stores and gives none:
+
+> "**New account creation has ended. Existing users may continue using the app through December 18, 2026.**"
+
+Beyond that: `nationaleczema.org/eczema-wise/` 404s and so do four other candidate URLs; NEA's own site search for "eczemawise" returns nothing; the post sitemap contains no matching entry; there is no press-room item and no blog post. The FY2025 990, which would cover the decision, is not filed yet.
+
+**What this does to the read.** A national patient charity retiring a **free**, award-winning app with **25,000 users** and no revenue line is consistent with an operating-cost or grant-cycle decision, and is not by itself a demand verdict. Combined with the finding already recorded above — that three of the top-five 1★ complaints are **signup failures**, from people who never reached the product — the honest version is:
+
+- EczemaWise does **not** demonstrate that eczema tracking has a ceiling of 5,000 users.
+- It does **not** demonstrate anything about pricing, because it never had a price.
+- It **does** still demonstrate that the largest US eczema charity, with 75K email subscribers and 66K Facebook followers behind it, could not sustain the product — which is a real negative, just a weaker and differently-shaped one than "5K installs after six years."
+
+The four negative findings across the sweep still corroborate each other. This one is now the weakest of them, and should not be cited as the strongest.
